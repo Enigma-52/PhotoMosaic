@@ -55,6 +55,25 @@ The Photo Mosaic Creator follows these steps:
    - The resulting mosaic is displayed using OpenCV.
    - The final mosaic is saved as "output.jpg."
 
+## OpenCV Usage
+
+In the Photo Mosaic Creator project, [OpenCV (cv2)](https://opencv.org/) is a key library for various image processing tasks:
+
+1. **Image Loading:**
+   - `cv2.imread()` is used to read input images and images from the predefined set.
+
+2. **Image Resizing:**
+   - `cv2.resize()` is employed to resize the selected images to match the dimensions of the tiles in the mosaic.
+
+3. **Image Display:**
+   - `cv2.imshow()` is utilized to display the intermediate mosaic during the creation process.
+
+4. **Final Mosaic Save:**
+   - `cv2.imwrite()` is used to save the final mosaic as "output.jpg."
+
+OpenCV plays a crucial role in handling various image manipulation tasks, contributing to the creation of vibrant and visually appealing photo mosaics.
+
+
 ## Configuration
 
 Adjust parameters like `tile_height`, `tile_width`, and others in the script to experiment with different mosaic effects.
