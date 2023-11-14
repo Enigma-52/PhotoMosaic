@@ -14,12 +14,7 @@ The Photo Mosaic Creator is a Python project that transforms an input image into
 
 ### Installation
 
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/your-username/photo-mosaic-creator.git
-    cd photo-mosaic-creator
-    ```
+1. Clone the repository
 
 2. Install dependencies:
 
@@ -33,7 +28,7 @@ The Photo Mosaic Creator is a Python project that transforms an input image into
 2. Run the Photo Mosaic Creator script:
 
     ```bash
-    python photo_mosaic_creator.py
+    python main.py
     ```
 
 3. View the generated mosaic in the "output.jpg" file.
