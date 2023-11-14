@@ -29,7 +29,7 @@ The Photo Mosaic Creator is a Python project that transforms an input image into
 
 ## Usage
 
-1. Ensure your input images are placed in the "pics" directory.
+1. Ensure that the input image is the one present in "image.jpg" and the source tile images are in the predefined animals folder.
 2. Run the Photo Mosaic Creator script:
 
     ```bash
@@ -43,7 +43,7 @@ The Photo Mosaic Creator is a Python project that transforms an input image into
 The Photo Mosaic Creator follows these steps:
 
 1. **Image Caching:**
-   - The script reads images from the "pics" directory and calculates the average color for each image.
+   - The script reads images from the "animals" directory and calculates the average color for each image.
    - The data is cached in a JSON file named "cache.json" to avoid recalculating for every run.
 
 2. **Mosaic Generation:**
