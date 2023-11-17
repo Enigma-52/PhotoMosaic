@@ -49,6 +49,10 @@ The Photo Mosaic Creator follows these steps:
 3. **Display and Save:**
    - The resulting mosaic is displayed using OpenCV.
    - The final mosaic is saved as "output.jpg."
+  
+## How It Works
+
+The Dataset used for tile images is the Kaggle Animal Image Dataset. Link - https://bit.ly/3G1TLWK
 
 ## OpenCV Usage
 
